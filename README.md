@@ -23,6 +23,13 @@
 * `git stash pop` combines `apply` and `drop`.
 * `git stash clear` to clear the stash stack.
 
+### Resetting
+
+* `git reset <reference>` to *go back in time*.
+    * `--soft` moves HEAD to the reference and places all changes that happened after it to the staging area.
+    * `--mixed` moves HEAD to the reference, but doesn't add changes after the reference to the staging area.
+    * `--hard`  forces HEAD to the specified reference, cleaning the working directory and staging area.
+* `git reflog` for a history of all actions taken in the repository (different from `git log`).
 
 ## Installation notes
 How to set up VSCode as diff and merge tool:

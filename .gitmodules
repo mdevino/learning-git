@@ -1,0 +1,3 @@
+[submodule "testing-git-reset"]
+	path = testing-git-reset
+	url = git@github.com:mdevino/testing-git-reset.git
