@@ -1,5 +1,7 @@
 # Learning Git
 
+Just some Git/Github stuff I'm learning from [GitHub Ultimate: Master Git and GitHub - Beginner to Expert](https://www.udemy.com/share/101XzEB0IScV9QQ3w=/).
+
 ## Tips
 
 * `git init <name>` - creates a folder with the given name and starts git in it.
