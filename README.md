@@ -15,6 +15,8 @@ Just some Git/Github stuff I'm learning from [GitHub Ultimate: Master Git and Gi
 * If you have changes in your working directory and perform a `git checkout -b <new_branch>`, git will carry these changes to the newly created branch.
 * `git tag -a <tag_name> -m <tag_message>` - creates annotated tag.
     * `git show <tag_name> to see info about the tag.
+* `git clone <URL> <folder_name>` to clone a repository into a given folder.
+
 
 ### Stashing
 
@@ -25,6 +27,7 @@ Just some Git/Github stuff I'm learning from [GitHub Ultimate: Master Git and Gi
 * `git stash pop` combines `apply` and `drop`.
 * `git stash clear` to clear the stash stack.
 
+
 ### Resetting
 
 * `git reset <reference>` to *go back in time*.
@@ -32,6 +35,11 @@ Just some Git/Github stuff I'm learning from [GitHub Ultimate: Master Git and Gi
     * `--mixed` moves HEAD to the reference, but doesn't add changes after the reference to the staging area.
     * `--hard`  forces HEAD to the specified reference, cleaning the working directory and staging area.
 * `git reflog` for a history of all actions taken in the repository (different from `git log`).
+
+
+### Off-topic
+
+* [HTML initializer](http://www.initializr.com/)
 
 ## Installation notes
 How to set up VSCode as diff and merge tool:
