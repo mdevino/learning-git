@@ -39,6 +39,18 @@ Just some Git/Github stuff I'm learning from [GitHub Ultimate: Master Git and Gi
     * `--hard`  forces HEAD to the specified reference, cleaning the working directory and staging area.
 * `git reflog` for a history of all actions taken in the repository (different from `git log`).
 
+### Tagging
+
+* `git tag <tag_name> <branch>` to create a tag on the latest commit of the given branch.
+    * `-a` for an annotated tag.
+    * `-m <message>` to add a message to the tag (similar to a commit message).
+* `git push <remote> <tag_name>` to push tags to remote.
+    * `git push --tags` to push all tags to remote.
+* `git push <remote> :<tag_name>` to delete a tag remotely.
+* Note that tags deleted remoted aren't necessarily deleted from local.
+* `git tag -f <tag_name> <reference>` to "float" an existing tag to a different reference.
+    * This change only happens locally. If you need to change it remotely, either force a push or delete the existing remote tag.
+
 
 ### Off-topic
 
