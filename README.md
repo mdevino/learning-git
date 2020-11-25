@@ -16,6 +16,9 @@ Just some Git/Github stuff I'm learning from [GitHub Ultimate: Master Git and Gi
 * `git tag -a <tag_name> -m <tag_message>` - creates annotated tag.
     * `git show <tag_name> to see info about the tag.
 * `git clone <URL> <folder_name>` to clone a repository into a given folder.
+* `git fetch -p` to update local branches and branches that no longer exist remotely.
+* `git push :<branch>` to delete the given branch remotely.
+* `git pull --rebase` to perform a rebase instead a merge on pulling.
 
 
 ### Stashing
